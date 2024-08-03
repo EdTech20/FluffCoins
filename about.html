@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABOUT US</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/logo.css">
+
+  <style>
+    body {
+      font-size: 16px; /* Base font size for mobile */
+      margin: 0;
+      padding: 0;
+    }
+    
+    .about-us-section {
+      padding: 40px 20px;
+      background-color: #f7f9fc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+    
+    .about-us-section h1 {
+      font-size: 2.5em; /* Responsive font size */
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #ff69b4;
+      text-shadow: 2px 2px 4px #aaa;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    
+    .about-us-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .about-us-block {
+      margin-bottom: 40px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .about-us-block h2 {
+      font-size: 2em; /* Responsive font size */
+      margin-bottom: 10px;
+      color: #ff69b4;
+    }
+    
+    .about-us-block p {
+      font-size: 1.125em; /* Responsive font size */
+      line-height: 1.6;
+      color: #333;
+      text-align: justify;
+    }
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        font-size: 14px;
+      }
+      
+      .about-us-section h1 {
+        font-size: 2em;
+      }
+      
+      .about-us-block h2 {
+        font-size: 1.5em;
+      }
+      
+      .about-us-block p {
+        font-size: 1em;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      body {
+        font-size: 12px;
+      }
+      
+      .about-us-section h1 {
+        font-size: 1.75em;
+      }
+      
+      .about-us-block h2 {
+        font-size: 1.25em;
+      }
+      
+      .about-us-block p {
+        font-size: 0.875em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo"><img src="images/main logo.jpg" alt="" width="100px"></div> <span id="logo">Fluffy</span>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+      <li><a href="roadmap.html">RoadMap</a></li>
+      <li><a href="howtobuy.html">How to Buy</a></li>
+      <li><a href="FAQ.HTML">FAQ'S</a></li>
+
+    </ul>
+    <!-- <button class="live-chart">Live Chart</button> -->
+    <div class="menu-icon" onclick="openSidebar()">&#9776;</div>
+  </nav>
+
+  <div id="sidebar" class="sidebar">
+    <div class="close-btn" onclick="closeSidebar()">&times;</div>
+    <br><br><br><br>
+    <ul class="sidebar-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="roadmap.html">RoadMap</a></li>
+        <li><a href="howtobuy.html">How to Buy</a></li>
+        <li><a href="FAQ.HTML">FAQ'S</a></li>
+    </ul>
+  </div>
+
+  <section class="about-us-section">
+    <h1>About Us</h1>
+    <div class="about-us-content">
+      <div class="about-us-block">
+        <h2>The Birth of $FluffCoin</h2>
+        <p>The rise of meme coins in 2021 and the rapid adoption of the Solana blockchain provided the perfect conditions for the birth of $FluffCoin. Inspired by the influence of online communities and the advantages of Solana, $FluffCoin evolved from a meme coin to an experimental Web 3.0 community coin. $FluffCoin aims to onboard Solana users, educate market participants, and foster personal connections.</p>
+      </div>
+      <div class="about-us-block">
+        <h2>Vision, Mission, & Strategy</h2>
+        <p>$FluffCoin is committed to fostering a transparent, free-spirited, and community-driven culture. Unlike other meme coins that rely on aggressive marketing and deceptive practices, $FluffCoin focuses on authentic community building and support for charitable causes.</p>
+      </div>
+      <div class="about-us-block">
+        <h2>What Is $FluffCoin?</h2>
+        <p>$FluffCoin is an experimental Web 3.0 community coin that aims to build a decentralized community focused on supporting dog-related causes. The project leverages the fun and engaging nature of memes to attract new users to the Solana ecosystem and educate them about the emerging crypto asset class.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="footer-content">
+      <div class="footer-text">
+        <p>$FluffCoin is dedicated to creating a fun, impactful, and community-driven project. Join us on this fluffy adventure and help us make the crypto world a better place, one $FluffCoin at a time!</p>
+      </div>
+      <div class="footer-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="roadmap.html">Roadmap</a></li>
+          <li><a href="howtobuy.html">How to Buy</a></li>
+          <li><a href="https://docs.google.com/document/d/1W1K-RKzpoS7OqNFHoM2u6PG6VS1AWPOQDdvdRIeGoGw/edit#heading=h.rvydwwlspe0c">Whitepaper</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h2>Follow Us</h2>
+        <a href="https://twitter.com/fluffcoinfluffy" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://t.me/fluffcoinfluffy" target="_blank" class="social-icon">
+          <i class="fab fa-telegram-plane"></i>
+        </a>
+        <a href="https://www.instagram.com/fluffcoin_fluffy" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2024</span> Fluffy Land. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/navbar.js"></script>
+</body>
+</html>
